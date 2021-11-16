@@ -18,5 +18,6 @@ public class FollowPlayerX : MonoBehaviour
     void Update()
     {
         this.transform.position = plane.transform.position + offset;
+
     }
 }
